@@ -137,9 +137,9 @@ is31Flavors(originalFlavors);
     
     and should return a new array that is identical to the old array. You can name the new array however you'd like. */
 
-    function copy(/*code here*/) {
+    function copy(original, copyName) {
 
-        /*code here*/
+        var copyName = orignial.slice();
 
     }
 
